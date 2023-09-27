@@ -29,7 +29,7 @@ const Wrapper = styled.div`
 const Left = styled.div`
   flex: 1;
   position: relative;
-  margin-left: 12em;
+  margin-left: 10em;
   margin-right: 0em;
 
   @media only screen and (max-width: 992px) {
@@ -79,7 +79,7 @@ const Right = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 8em;
+  margin-right: 10em;
   margin-left: 5em;
   gap: 0.3em;
   border: 0.5px solid #908f9068;

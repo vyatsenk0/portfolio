@@ -115,8 +115,8 @@ const Link = styled.a`
 const Navbar = () => {
   const dowloadFile = () => {
     const link = document.createElement("a");
-    link.href = "./Vladislav_Yatsenko_Resume.docx";
-    link.setAttribute("download", "Vladislav_Yatsenko_Resume.docx");
+    link.href = "./Vladislav_Yatsenko_Resume.pdf";
+    link.setAttribute("download", "Vladislav_Yatsenko_Resume.pdf");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

@@ -42,7 +42,7 @@ const Right = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-Right: 4em;
+  margin-right: 5em;
   margin-top: 3.5em;
   gap: 0.3em;
   background: #2a013154;

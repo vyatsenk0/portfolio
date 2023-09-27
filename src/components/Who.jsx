@@ -15,6 +15,7 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 1 4em;
+  gap: 4em;
   height: 100%;
 
   @media only screen and (max-width: 992px) {
@@ -32,11 +33,13 @@ const Wrapper = styled.div`
 const Left = styled.div`
   flex: 2;
   height: 18em;
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 0.3em;
   margin-Left: 4em;
+  
   background: #2a013154;
   border: 0.5px solid #908f9068;
   padding: 1.5em;
@@ -96,8 +99,11 @@ const TitleText = styled.h2`
 
 
 const Right = styled.div`
-  flex: 3;
-
+  flex: 2.5;
+  
+  
+  
+ 
   @media only screen and (max-width: 1200px) {
     flex: 2;
     width: 80%;
@@ -159,7 +165,7 @@ const Who = () => {
       <Wrapper>
         
         <Left>
-          <Title>Who do I enjoy?</Title>
+          <Title>What do I enjoy?</Title>
           <Subtitle>
             <HorizontalRule style={{ color: "white", width: "1.5em" }} />I Like to
           </Subtitle>
