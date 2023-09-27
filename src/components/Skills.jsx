@@ -101,7 +101,7 @@ const Skills = () => {
           <Title>My hard skills</Title>
           <List>
           <ListItem>
-              <Emp>Programming languages:</Emp> C, C++, Python, JavaScript
+              <Emp>Programming languages:</Emp> C, C++, Java, Python, JavaScript
             </ListItem>
             <ListItem>
               <Emp>Front-End:</Emp> HTML5, CSS3, Sass, Bootstrap, JS, React, Redux
